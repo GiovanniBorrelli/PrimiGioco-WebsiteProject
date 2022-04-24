@@ -1,4 +1,4 @@
-package src.it.unisa.model.bean;
+package model;
 
 public class IndirizzoBean {
 	private int idIndirizzo;

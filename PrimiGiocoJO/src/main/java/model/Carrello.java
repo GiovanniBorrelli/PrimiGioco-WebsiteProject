@@ -1,5 +1,5 @@
-package src.it.unisa.model;
-import src.it.unisa.model.dao.*;
+package model;
+import model.*;
 
 import java.io.IOException;
 import java.sql.SQLException;

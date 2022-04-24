@@ -1,4 +1,4 @@
-package src.it.unisa.control;
+package control;
 
 import java.io.IOException;
 import java.sql.SQLException;
@@ -10,9 +10,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import src.it.unisa.model.bean.ProdottoBean;
-import src.it.unisa.model.dao.ProdottoDAO;
-
+import model.*;
 
 
 public class InsertAdminControl extends HttpServlet {
