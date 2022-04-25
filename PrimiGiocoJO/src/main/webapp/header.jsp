@@ -26,7 +26,7 @@
 <div class="header" id="header">
 	<div class="logo">
 		<a href="./catalogo">
-			<img src="img/logo2.png"> 
+			<img src="img/logo2.png" style="width: 21%; height: 21%"/> 
 		</a>
 	</div>
 	
@@ -93,26 +93,22 @@
 					<li><div class="dropdown2">
 				<a class="dropLink2">Giochi</a>
 						<ul class="dropdown-contenuto3">
-							<li><a href="./chooseType?tipologia=datavolo"></a>Da Tavolo</li>
-							<li><a href="./chooseType?tipologia=Case">Case</a></li>
-							<li><a href="./chooseType?tipologia=CPU">CPU</a></li>
-							<li><a href="./chooseType?tipologia=Dissipatori">Dissipatori</a></li>
-							<li><a href="./chooseType?tipologia=Hard Disk">HDD</a></li>
-							<li><a href="./chooseType?tipologia=Scheda Madre">MotherBoard</a></li>
-							<li><a href="./chooseType?tipologia=RAM">Ram</a></li>
-							<li><a href="./chooseType?tipologia=SSD">SSD</a></li>
+							<li><a href="./chooseType?tipologia=Tavolo"></a>UNO</li>
+							<li><a href="./chooseType?tipologia=Bambini"></a>JENGA</li>
+							<li><a href="./chooseType?tipologia=Ragazzi">SCARABEO</a></li>
+							
 						</ul>		
 				</div></li>
 				<li><div class="dropdown2">		
-					<a class="dropLink2" href="./chooseType?tipologia=Computer">Computer</a>
+					<a class="dropLink2" href="./chooseType?tipologia=Tavolo">Tavolo</a>
 						<ul class="dropdown-contenuto2">
-							<li><a href="./chooseType?tipologia=Computer&like=i3">i3</a></li>
-							<li><a href="./chooseType?tipologia=Computer&like=i5">i5</a></li>
-							<li><a href="./chooseType?tipologia=Computer&like=i7">i7</a></li>
+							<li><a href="./chooseType?tipologia=Tavolo&like=UNO">UNO</a></li>
+							<li><a href="./chooseType?tipologia=Tavolo&like=JENGA">JENGA</a></li>
+							<li><a href="./chooseType?tipologia=Tavolo&like=SCARABEO">SCARABEO</a></li>
 						</ul>	
 				</div></li>
-				<li><a href="./chooseType?tipologia=Monitor">Monitor</a></li>	
-				<li><a href="./chooseType?tipologia=Webcam">Webcam</a></li>
+				<li><a href="./chooseType?tipologia=Monitor">Bambini</a></li>	
+				<li><a href="./chooseType?tipologia=Webcam">Ragazzini</a></li>
 			</ul>
 		</div>
 		<a href="./ChiSiamo.jsp" class="navmenuspacer">Chi siamo</a>

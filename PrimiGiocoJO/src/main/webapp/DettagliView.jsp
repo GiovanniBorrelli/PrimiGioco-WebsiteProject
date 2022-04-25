@@ -4,6 +4,7 @@
     	ProdottoBean prodotto = (ProdottoBean) request.getAttribute("prodotto");
     	ArrayList<?> prodotti = (ArrayList<?>) request.getAttribute("prodotti");
    		ArrayList<?> comms = (ArrayList<?>) request.getAttribute("commenti");
+   		
     %>
 <!DOCTYPE html>
 <html>

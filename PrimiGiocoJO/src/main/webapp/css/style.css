@@ -1,9 +1,9 @@
-<meta name="viewport" content="width=device-width, initial-scale=1" 
+/*<meta name="viewport" content="width=device-width, initial-scale=1" 
 @font-face {
    font-family: 'Quicksand', sans-serif;
    src: url('Quicksand-VariableFont_wght.ttf') format('truetype');
 }
-
+*/
 html {
 	height: 100%;
 }
@@ -37,7 +37,8 @@ body {
 }
 
 .logo img {
-	width: 180px;
+	width: 65px;
+	height: 65px;
 }
 
 .logo2 {
@@ -114,7 +115,8 @@ body {
 	left: 0;
 	height: 75px;
 	width: 100%;
-	background-color: #292929;
+	background-color: #FFBF00;
+	color:"#FFBF00";
 	z-index:20;
 }
 
@@ -1227,7 +1229,8 @@ login {
 	margin-right: auto;
 	height: 130px;
 	width: 100%;
-	background-color: #292929;
+	background-color: #FFBF00;
+	color:"#FFBF00";
 	z-index: 10;
 }
 
