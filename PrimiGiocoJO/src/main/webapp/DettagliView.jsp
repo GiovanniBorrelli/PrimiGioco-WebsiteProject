@@ -31,12 +31,12 @@
 		<div class="descrizioneimage">
 		<img src="<%=prodotto.getPath()%>" style="display: block; float:left; padding-left: 20px;" width="256px" height="256px" >
 		</div>
-		<div class="descrizione"><h3>Descrizione</h3><%=prodotto.getDescrizione()%></div>
+		<div class="descrizione"><h3> Descrizione </h3><%=prodotto.getDescrizione()%></div>
 		</div>
 		<div class="infodescrizione">
 			<div class="prezzodescrizione">€<%=prodotto.getPrezzo()%></div>
 			<%if(prodotto.getQuantita() == 0) {%>
-			<h4>Quantità non disponibile</h4>
+			<h4>Quantit&agrave non disponibile</h4>
 			<%}else if(prodotto.getQuantita()>=1){ %>
 			<div class="iconCart" id="desc"><button id= "add" onclick="addTocart(<%=prodotto.getIdProdotto()%>),increment()"><img src="img/icon-cart.png" class="image"></button></div>
 			
