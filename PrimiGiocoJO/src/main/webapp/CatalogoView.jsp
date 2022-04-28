@@ -10,7 +10,7 @@
 	%>
 <!DOCTYPE html>
 <html>
-<%@ page contentType="text/html; charset=UTF-8" import="java.util.*,model.bean.*,model.dao.ProdottoDAO,java.sql.*"%>
+<%@ page contentType="text/html; charset=UTF-8" import="java.util.*,model.bean.*,model.dao.* ,java.sql.*"%>
 
 
 <head>
