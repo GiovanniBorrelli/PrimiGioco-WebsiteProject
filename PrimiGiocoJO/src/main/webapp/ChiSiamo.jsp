@@ -33,7 +33,7 @@
 <h2>Riguardo gli sviluppatori?</h2>
 <p>Siamo un gruppo di studenti iscritti al secondo anno della facoltà d'Informatica, presso l'Università di Fisciano (SA), che, affascinati dal corso di Tecnologia Software per il Web, si sono impegnati al massimo per offrirvi un servizio sicuro e semplice.</p>
 <h2>Come possiamo contattarvi?</h2>
-<p>Sui vari social situati in basso e al seguente indirizzo email: PrimiGioco.infoitalia@gmail.com</p>
+<p>Sui vari social situati in basso e al seguente indirizzo email: <i>PrimiGioco.infoitalia@gmail.com</i></p>
 </div>
 <%@include file="footer.jsp" %>
 </body>
