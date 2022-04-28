@@ -2,11 +2,12 @@
     pageEncoding="UTF-8"%>
 	<%
 	ArrayList<?> prodotti = (ArrayList<?>) request.getAttribute("prodotti");
-	/*if(prodotti == null){
+	if(prodotti == null){
 		response.sendRedirect("./catalogo");
 		return;
+		
 	}
-	*/
+	
 	Integer index = (Integer) request.getSession().getAttribute("index") ; 
 	
 	%>

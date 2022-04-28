@@ -8,13 +8,14 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 
-
+@WebServlet("/LoginControl")
 public class LoginControl extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        private static UserDAO model = new UserDAO();
@@ -50,7 +51,7 @@ public class LoginControl extends HttpServlet {
 				}
 				
 		}catch(Throwable e) {
-			System.out.println("Errore LoignControl: "+e.getMessage());
+			System.out.println("Errore LoginControl: "+e.getMessage());
 			e.printStackTrace();
 		}
 		

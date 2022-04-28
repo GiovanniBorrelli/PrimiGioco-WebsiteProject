@@ -5,17 +5,17 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-import it.unisa.model.bean.ProdottoBean;
+import model.bean.ProdottoBean;
 
 import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import javax.sql.DataSource;
 
-import it.unisa.model.Carrello;
-import it.unisa.model.ProdottoCarrello;
-import it.unisa.model.bean.ComponiBean;
-import it.unisa.model.bean.OrdineBean;
+import model.Carrello;
+import model.ProdottoCarrello;
+import model.bean.ComponiBean;
+import model.bean.OrdineBean;
 
 public class ComponiDAO {
 	private static final String TABLE_NAME_Comporre = "comporre";

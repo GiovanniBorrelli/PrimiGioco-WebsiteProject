@@ -9,7 +9,7 @@
     
 <!DOCTYPE html>
 <html>
-<%@ page contentType="text/html; charset=UTF-8" import="java.util.*,model.*"%>
+<%@ page contentType="text/html; charset=UTF-8" import="java.util.*,model.*, model.bean.*"%>
 <head>
 <link rel="stylesheet" href="css/style.css">
 <script type="text/javascript" src="script/jquery-3.5.1.min.js"></script>

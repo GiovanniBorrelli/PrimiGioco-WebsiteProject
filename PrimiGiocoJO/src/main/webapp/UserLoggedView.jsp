@@ -7,14 +7,14 @@
     %>
 <!DOCTYPE html>
 <html>
-<%@ page contentType="text/html; charset=UTF-8" import="java.util.*,model.*"%>
+<%@ page contentType="text/html; charset=UTF-8" import="java.util.*,model.bean.*"%>
 <head>
 <link rel="stylesheet" href="css/style.css">
 <script type="text/javascript" src="script/jquery-3.5.1.min.js"></script>
 <script type="text/javascript" src="script/countElem.js"></script>
 <meta charset="UTF-8">
 <link rel="icon" type="image/png" href="img/favicon.png" />
-<title>PCWorld: Ciao <%=user.getNome() %></title>
+<title>PrimiGioco: Ciao <%=user.getNome() %></title>
 </head>
 <body>
 <%@include file="header.jsp" %>

@@ -7,8 +7,9 @@
 <!DOCTYPE html>
 <html>
 <%@page contentType="text/html; charset=UTF-8" %>
-<%@page import="model.*"  %>
-
+<%@page import="model.bean.UserBean"  %>
+<%@page import="model.Carrello"  %>
+<%@page import="model.ProdottoCarrello"  %>
 <%@page import="java.util.*"  %>
 <head>
 
@@ -26,7 +27,7 @@
 <div class="header" id="header">
 	<div class="logo">
 		<a href="./catalogo">
-			<img src="img/logo2.png" style="width: 21%; height: 21%"/> 
+			<img src="img/logo2.png">
 		</a>
 	</div>
 	
@@ -91,13 +92,7 @@
 			<a class="dropLink navmenuspacer">Catalogo</a>
 			<ul class="dropdown-contenuto">
 					<li><div class="dropdown2">
-				<a class="dropLink2">Giochi</a>
-						<ul class="dropdown-contenuto3">
-							<li><a href="./chooseType?tipologia=Tavolo"></a>UNO</li>
-							<li><a href="./chooseType?tipologia=Bambini"></a>JENGA</li>
-							<li><a href="./chooseType?tipologia=Ragazzi">SCARABEO</a></li>
-							
-						</ul>		
+										
 				</div></li>
 				<li><div class="dropdown2">		
 					<a class="dropLink2" href="./chooseType?tipologia=Tavolo">Tavolo</a>
@@ -110,45 +105,8 @@
 				<li><a href="./chooseType?tipologia=Monitor">Bambini</a></li>	
 				<li><a href="./chooseType?tipologia=Webcam">Ragazzini</a></li>
 			</ul>
-		</div>
-		<a href="./ChiSiamo.jsp" class="navmenuspacer">Chi siamo</a>
-</div>
-<div class="menuSmartUser">
-	<img id ="btnOpenMenu"src="./img/MenuNav.png" width="30" height="30">
-</div>
-<div id="menu" style="display:none;" class="menuSmartUserView">
-	  <a href="catalogo">Home</a>
-	  <a id="btnCat">Catalogo</a>
-			<div id="catShow" style="display: none;">
-			<ul class="btnCatDiv">
-					<li>
-				<a id="componentiShow">Componenti</a>
-					<div id="componentiShowDiv" style="display: none;">
-						<ul class="ulComponenti">
-							<li>•<a href="./chooseType?tipologia=Alimentatori">Alimentatori</a></li>
-							<li>•<a href="./chooseType?tipologia=Case">Case</a></li>
-							<li>•<a href="./chooseType?tipologia=CPU">CPU</a></li>
-							<li>•<a href="./chooseType?tipologia=Dissipatori">Dissipatori</a></li>
-							<li>•<a href="./chooseType?tipologia=Hard Disk">HDD</a></li>
-							<li>•<a href="./chooseType?tipologia=Scheda Madre">MotherBoard</a></li>
-							<li>•<a href="./chooseType?tipologia=RAM">Ram</a></li>
-							<li>•<a href="./chooseType?tipologia=SSD">SSD</a></li>
-						</ul>
-						</div>		
-				</li>
-				<li>	
-					<a id="computerShow">Computer</a>
-					<div id="computerShowDiv" style="display: none;">
-						<ul class="ulComputer">
-							<li>•<a href="./chooseType?tipologia=Computer&like=i3">i3</a></li>
-							<li>•<a href="./chooseType?tipologia=Computer&like=i5">i5</a></li>
-							<li>•<a href="./chooseType?tipologia=Computer&like=i7">i7</a></li>
-						</ul>	
-						</div>
-				</li>
-				<li><a href="./chooseType?tipologia=Monitor">Monitor</a></li>	
-				<li><a href="./chooseType?tipologia=Webcam">Webcam</a></li>
-			</ul>
+		
+
 			</div>
 	  <a href="./ChiSiamo.jsp" class="navmenuspacer">Chi siamo</a>
 	  		

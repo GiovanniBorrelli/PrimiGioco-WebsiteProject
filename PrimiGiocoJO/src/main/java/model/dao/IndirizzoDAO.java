@@ -8,8 +8,8 @@ import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import javax.sql.DataSource;
-import it.unisa.model.bean.IndirizzoBean;
-import it.unisa.model.bean.UserBean;
+import model.bean.IndirizzoBean;
+import model.bean.UserBean;
 
 public class IndirizzoDAO {
 	private static final String TABLE_NAME_Indirizzo = "Indirizzo";

@@ -2,7 +2,7 @@ package control;
 
 import java.io.IOException;
 import java.sql.SQLException;
-import model.*;
+
 import model.bean.UserBean;
 import model.dao.UserDAO;
 

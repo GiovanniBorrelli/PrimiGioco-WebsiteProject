@@ -11,6 +11,11 @@
 
 <title>PrimiGioco:Chi Siamo</title>
 </head>
+<%@page contentType="text/html; charset=UTF-8" %>
+<%@page import="model.bean.UserBean"  %>
+<%@page import="model.Carrello"  %>
+<%@page import="model.ProdottoCarrello"  %>
+<%@page import="java.util.*"  %>
 <body>
 <%@include file="header.jsp" %>
 <div class="chisiamoimage">
