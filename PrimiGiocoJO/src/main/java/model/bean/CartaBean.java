@@ -1,4 +1,4 @@
-package src.it.unisa.model.bean;
+package model.bean;
 
 import java.sql.Date;
 

@@ -1,4 +1,4 @@
-package src.it.unisa.model.dao;
+package model.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -8,8 +8,8 @@ import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import javax.sql.DataSource;
-import src.it.unisa.model.bean.IndirizzoBean;
-import src.it.unisa.model.bean.UserBean;
+import it.unisa.model.bean.IndirizzoBean;
+import it.unisa.model.bean.UserBean;
 
 public class IndirizzoDAO {
 	private static final String TABLE_NAME_Indirizzo = "Indirizzo";

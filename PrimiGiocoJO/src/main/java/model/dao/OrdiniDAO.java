@@ -1,4 +1,4 @@
-package src.it.unisa.model.dao;
+package model.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -12,7 +12,8 @@ import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import javax.sql.DataSource;
 
-import src.it.unisa.model.bean.OrdineBean;
+import model.*;
+import model.bean.OrdineBean;
 
 public class OrdiniDAO {
 	private static final String TABLE_NAME_Ordine = "ordine";

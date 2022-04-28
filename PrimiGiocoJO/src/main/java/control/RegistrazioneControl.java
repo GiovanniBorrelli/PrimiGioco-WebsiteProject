@@ -3,6 +3,9 @@ package control;
 import java.io.IOException;
 import java.sql.SQLException;
 import model.*;
+import model.bean.UserBean;
+import model.dao.UserDAO;
+
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

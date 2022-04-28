@@ -1,4 +1,4 @@
-package src.it.unisa.model.dao;
+package model.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -11,8 +11,9 @@ import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import javax.sql.DataSource;
 
-import src.it.unisa.model.bean.CommentoBean;
-import src.it.unisa.model.bean.ValutazioneBean;
+import model.*;
+import model.bean.CommentoBean;
+import model.bean.ValutazioneBean;
 
 public class ValutazioneDAO {
 	private static final String TABLE = "Valutazione";

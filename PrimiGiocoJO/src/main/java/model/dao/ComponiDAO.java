@@ -1,21 +1,21 @@
-package src.it.unisa.model.dao;
+package model.dao;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-import src.it.unisa.model.bean.ProdottoBean;
+import it.unisa.model.bean.ProdottoBean;
 
 import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import javax.sql.DataSource;
 
-import src.it.unisa.model.Carrello;
-import src.it.unisa.model.ProdottoCarrello;
-import src.it.unisa.model.bean.ComponiBean;
-import src.it.unisa.model.bean.OrdineBean;
+import it.unisa.model.Carrello;
+import it.unisa.model.ProdottoCarrello;
+import it.unisa.model.bean.ComponiBean;
+import it.unisa.model.bean.OrdineBean;
 
 public class ComponiDAO {
 	private static final String TABLE_NAME_Comporre = "comporre";

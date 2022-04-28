@@ -1,4 +1,4 @@
-package src.it.unisa.model.dao;
+package model.dao;
 
 import java.io.IOException;
 import java.sql.SQLException;

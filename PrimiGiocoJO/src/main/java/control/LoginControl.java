@@ -1,6 +1,8 @@
 
 package control;
 import model.*;
+import model.bean.UserBean;
+import model.dao.UserDAO;
 
 import java.io.IOException;
 import java.io.PrintWriter;

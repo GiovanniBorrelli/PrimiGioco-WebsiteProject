@@ -1,18 +1,18 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8" import="java.util.*,model.*,control.*,java.sql.*"%>
+    pageEncoding="UTF-8"%>
 	<%
 	ArrayList<?> prodotti = (ArrayList<?>) request.getAttribute("prodotti");
-	if(prodotti == null){
+	/*if(prodotti == null){
 		response.sendRedirect("./catalogo");
 		return;
 	}
-	
-	int index = (int) request.getSession().getAttribute("index") ; 
+	*/
+	Integer index = (Integer) request.getSession().getAttribute("index") ; 
 	
 	%>
 <!DOCTYPE html>
 <html>
-<%@ page contentType="text/html; charset=UTF-8" import="java.util.*,model.*,control.*,java.sql.*"%>
+<%@ page contentType="text/html; charset=UTF-8" import="java.util.*,model.bean.*,model.dao.ProdottoDAO,java.sql.*"%>
 
 
 <head>
@@ -28,7 +28,7 @@
 
 <body>
 	<%@include file="header.jsp" %>
-
+<!--  
 	<div class="slideshow-container">
 		<div class="sliderPreferences">
 			<div class="mySlides fade">
@@ -69,7 +69,9 @@
 			dots[slideIndex-1].className += " active";
 			setTimeout(showSlides, 10000); //cambio ogni 10 secondi
 		}
+		
 	</script>
+	-->
 	<div class="content">
 	<h2>Prodotti</h2>
 	<div class="prodotti">

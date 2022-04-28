@@ -1,5 +1,7 @@
-package src.it.unisa.model.dao;
-import src.it.unisa.model.bean.*;
+package model.dao;
+import model.*;
+import model.bean.ProdottoBean;
+import control.*;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

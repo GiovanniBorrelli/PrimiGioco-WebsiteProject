@@ -1,4 +1,4 @@
-package src.it.unisa.model.bean;
+package model.bean;
 
 public class UserBean {
 	private int idUtente;

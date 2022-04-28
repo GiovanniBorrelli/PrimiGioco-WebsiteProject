@@ -1,9 +1,10 @@
-package src.it.unisa.model.dao;
+package model.dao;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-import src.it.unisa.model.bean.*;
+import model.*;
+import model.bean.UserBean;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
