@@ -1,4 +1,4 @@
-package src.it.unisa.control;
+package control;
 
 import java.io.IOException;
 import java.sql.SQLException;
@@ -9,8 +9,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import src.it.unisa.model.dao.*;
-import src.it.unisa.model.bean.*;
+import model.*;
 
 public class AdminControl extends HttpServlet {
 	private static final long serialVersionUID = 1L;

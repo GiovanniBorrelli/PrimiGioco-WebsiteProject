@@ -1,7 +1,7 @@
 
-package src.it.unisa.control;
-import src.it.unisa.model.dao.*;
-import src.it.unisa.model.bean.*;
+package control;
+import model.*;
+
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.RequestDispatcher;

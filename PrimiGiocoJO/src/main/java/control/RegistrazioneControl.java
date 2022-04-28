@@ -1,9 +1,8 @@
-package src.it.unisa.control;
+package control;
 
 import java.io.IOException;
 import java.sql.SQLException;
-import src.it.unisa.model.dao.*;
-import src.it.unisa.model.bean.*;
+import model.*;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

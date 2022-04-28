@@ -1,4 +1,4 @@
-package src.it.unisa.control;
+package control;
 
 import java.io.IOException;
 
