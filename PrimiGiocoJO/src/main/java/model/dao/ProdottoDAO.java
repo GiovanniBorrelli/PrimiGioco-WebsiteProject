@@ -1,5 +1,6 @@
-package model;
+package model.dao;
 import model.*;
+import model.bean.ProdottoBean;
 import control.*;
 
 import java.io.ByteArrayInputStream;

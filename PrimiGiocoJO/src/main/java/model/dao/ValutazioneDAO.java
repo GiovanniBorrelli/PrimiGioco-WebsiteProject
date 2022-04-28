@@ -1,4 +1,4 @@
-package model;
+package model.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -12,6 +12,8 @@ import javax.naming.NamingException;
 import javax.sql.DataSource;
 
 import model.*;
+import model.bean.CommentoBean;
+import model.bean.ValutazioneBean;
 
 public class ValutazioneDAO {
 	private static final String TABLE = "Valutazione";

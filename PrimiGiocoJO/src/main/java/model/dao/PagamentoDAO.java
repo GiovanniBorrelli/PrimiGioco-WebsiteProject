@@ -1,4 +1,4 @@
-package model;
+package model.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -11,6 +11,8 @@ import javax.naming.NamingException;
 import javax.sql.DataSource;
 
 import model.*;
+import model.bean.CartaBean;
+import model.bean.UserBean;
 
 public class PagamentoDAO {
 	private static final String TABLE_NAME_Pagamento = "Metodo_Pagamento";

@@ -1,5 +1,6 @@
 package model;
 import model.*;
+import model.dao.ProdottoDAO;
 
 import java.io.IOException;
 import java.sql.SQLException;

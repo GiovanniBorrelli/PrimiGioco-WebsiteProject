@@ -1,9 +1,11 @@
-package model;
+package model.dao;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
 import model.*;
+import model.bean.UserBean;
+
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import javax.naming.Context;

@@ -3,6 +3,7 @@ package control;
 import java.io.IOException;
 import java.sql.SQLException;
 import model.*;
+import model.dao.ProdottoDAO;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;

@@ -11,6 +11,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import model.*;
+import model.bean.ProdottoBean;
+import model.dao.ProdottoDAO;
 
 
 public class InsertAdminControl extends HttpServlet {

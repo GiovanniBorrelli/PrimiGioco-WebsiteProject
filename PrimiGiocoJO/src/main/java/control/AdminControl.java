@@ -10,6 +10,11 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import model.*;
+import model.bean.ComponiBean;
+import model.bean.ProdottoBean;
+import model.bean.UserBean;
+import model.dao.ComponiDAO;
+import model.dao.ProdottoDAO;
 
 public class AdminControl extends HttpServlet {
 	private static final long serialVersionUID = 1L;

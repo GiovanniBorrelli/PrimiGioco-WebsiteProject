@@ -12,7 +12,7 @@
 	%>
 <!DOCTYPE html>
 <html>
-<%@ page contentType="text/html; charset=UTF-8" import="java.util.*,model.ProdottoBean, model.ProdottoDAO, model.ProdottoCarrello, model.ProdottoModel, model.UserBean, model.UserDAO, model.UserBean,model.ProdottoCarrello,control.*,java.sql.*"%>
+<%@ page contentType="text/html; charset=UTF-8" import="java.util.*,model.bean.*,model.dao.ProdottoDAO,java.sql.*"%>
 
 
 <head>
