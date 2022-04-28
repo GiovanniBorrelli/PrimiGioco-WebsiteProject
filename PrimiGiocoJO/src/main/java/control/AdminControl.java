@@ -1,5 +1,6 @@
 package control;
 
+
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -15,15 +16,24 @@ import model.bean.ProdottoBean;
 import model.bean.UserBean;
 import model.dao.ComponiDAO;
 import model.dao.ProdottoDAO;
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
-
+/**
+ * Servlet implementation class AdminControl
+ */
+@WebServlet("/AdminControl")
 public class AdminControl extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private static final ProdottoDAO modelProd = new ProdottoDAO();
 	private static final ComponiDAO modelComponi = new ComponiDAO();
-	
-	//credenziali per accedere alla sezione admin: email= pcworld.infoitalia@gmail.com password=Tsw12345@
-   
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		boolean stato=true;
 		UserBean user = (UserBean) request.getSession().getAttribute("admin");

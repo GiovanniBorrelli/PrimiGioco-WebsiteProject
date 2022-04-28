@@ -8,7 +8,7 @@
 		
 	}
 	
-	Integer index = (Integer) request.getSession().getAttribute("index") ; 
+	int index = (int) request.getSession().getAttribute("index") ; 
 	
 	%>
 <!DOCTYPE html>
