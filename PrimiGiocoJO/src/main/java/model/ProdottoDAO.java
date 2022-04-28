@@ -1,5 +1,6 @@
 package model;
 import model.*;
+import control.*;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
