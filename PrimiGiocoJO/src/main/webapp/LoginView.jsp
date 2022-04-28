@@ -43,7 +43,7 @@
         </div>
     <div>
     <br><hr>
-    <p>Sei Nuovo? Registrati subito!</p>
+    <p>Sei nuovo? Registrati subito!</p>
     <a href="RegistrazioneView.jsp"><input type="button" value="Registrati"></a>
     </div>
     </form>
