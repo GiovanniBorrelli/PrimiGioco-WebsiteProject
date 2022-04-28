@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8" import="java.util.*,model.*,control.*,java.sql.*"%>
+    pageEncoding="UTF-8"%>
 	<%
 	ArrayList<?> prodotti = (ArrayList<?>) request.getAttribute("prodotti");
 	/*if(prodotti == null){
