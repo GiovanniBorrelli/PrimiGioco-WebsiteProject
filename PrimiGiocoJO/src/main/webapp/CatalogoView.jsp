@@ -4,12 +4,9 @@
 	ArrayList<?> prodotti = (ArrayList<?>) request.getAttribute("prodotti");
 	if(prodotti == null){
 		response.sendRedirect("./catalogo");
-		return;
-		
+		return;	
 	}
-	
-	int index = (int) request.getSession().getAttribute("index") ; 
-	
+	int index = (int) request.getSession().getAttribute("index");
 	%>
 <!DOCTYPE html>
 <html>
