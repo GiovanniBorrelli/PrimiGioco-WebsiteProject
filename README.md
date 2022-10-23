@@ -1,2 +1,2 @@
-# PrimiGiocoJO
+# PrimiGioco
 tsw project
